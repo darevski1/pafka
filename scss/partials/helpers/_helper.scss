@@ -1,0 +1,7 @@
+// Negative margin up 100px;
+$i: 10;
+@for $i from 0 through 100 {
+  .nmt-#{$i} {
+    margin-top: (-$i);
+  }
+}
